@@ -22,9 +22,10 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 80vh;
-  width: 85%;
+  justify-content: space-around;
+  height: 600px;
+  max-height: 1000px;
+  width: 350px;
   max-width: 800px;
   background-color: #252525;
   border-radius: 20px;
@@ -55,6 +56,13 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.containerNumbMeteor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-height: 200px;
 }
 .numb{
   font-family: "WDXL Lubrifont SC", sans-serif;
@@ -111,9 +119,9 @@
     background-position: center;
   }
   .containerSecund{
-    height: 80vh;
     width: 85%;
     max-width: 800px;
+    justify-content: space-around;
   }
   .containerInfo{
     display: flex;
@@ -126,7 +134,6 @@
     margin-top: 50px;
   }
   .tittle{
-    margin-top: 100px;
     font-size: 70px;
   }
   .subTittle{
@@ -140,7 +147,7 @@
     font-size: 30px;
   }
   .numb{
-    font-size: 300px;
+    font-size: 150px;
   }
   .button{
   font-size: 20px;

@@ -34,7 +34,7 @@ function App() {
         </div>
 
         <div className="containerInfo">
-          <div className="numbMeteor">
+          <div className="containerNumbMeteor">
             <p className="numb">{meteor}</p>
             <p className="textVistos">Meteoros Vistos</p>
           </div>
@@ -49,6 +49,7 @@ function App() {
           </div>
         </div>
       </div>
+      <a style={{color: "white", marginTop: 30}} href="https://www.instagram.com/luy_choyan?igsh=MTJ5ejM1czZpdWc5MA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">Desenvolvido por @luy_choyan</a>
     </main>
   )
 }
