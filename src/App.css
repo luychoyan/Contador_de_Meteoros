@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 .container{
@@ -13,10 +14,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  background-image: url('https://cdn.pixabay.com/photo/2023/08/19/05/24/starry-sky-8199764_1280.jpg');
-  background-size: cover;
-  background-position: center;
+  background-color: #090914;;
 }
 .containerSecund{
   display: flex;
@@ -27,7 +25,6 @@
   max-height: 1000px;
   width: 350px;
   max-width: 800px;
-  background-color: #252525;
   border-radius: 20px;
   padding: 7px;
 }
@@ -113,11 +110,6 @@
 }
 
 @media (min-width: 1024px) {
-  .container{
-    background-image: url('https://cdn.pixabay.com/photo/2017/02/09/09/11/starry-sky-2051448_1280.jpg');
-    background-size: cover;
-    background-position: center;
-  }
   .containerSecund{
     width: 85%;
     max-width: 800px;
