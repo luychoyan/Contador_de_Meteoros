@@ -44,7 +44,7 @@ function App() {
           </div>
 
           <div className="containerButtons">
-            <button className="button" onClick={() => aumentarMeteor()}>+1 MEMETORO</button>
+            <button className="button" onClick={() => aumentarMeteor()}>+1 METEORO</button>
             <button className="buttonClear" onClick={() => clear()}>REINICIAR CONTAGEM</button>
           </div>
         </div>
